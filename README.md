@@ -49,6 +49,6 @@ class SelectButton(Filter):
 The UILayout class is designed to integrate the filters and charts with the Flask app. It collects the UIComponents and registers the relevant urls with the app. Within this class, the developer must specify the React layout component, the location of the source jsx file, and the elementid for which the component will be mounted.
 
 ## Pandas Integration
-This library is built with the pandas dataframe in mind. That is, we expect the data to be some sort of structured data that’s easy to filter and easy to plot. Each Javascript charting library has it’s own expected format for the data which makes integration with python challenging. Included in this library are several helper functions that format the data in the way the Javascript libraries are expecting.
+This library is built with the pandas dataframe in mind. That is, we expect the data to be some sort of structured data that’s easy to filter and easy to plot. Each Javascript charting library has its own expected format for the data which makes integration with python challenging. Included in this library are several helper functions that format the data in the way the Javascript libraries are expecting.
 
 
